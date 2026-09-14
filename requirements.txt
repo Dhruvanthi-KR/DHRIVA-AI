@@ -1,0 +1,7 @@
+streamlit
+groq
+python-dotenv
+pypdf
+pytesseract
+pdf2image
+Pillow

@@ -1,0 +1,1028 @@
+* {
+    box-sizing: border-box;
+}
+
+/* ==================================================
+   GLOBAL
+   ================================================== */
+
+.stApp {
+    background: #17181b;
+    color: #e8e8e8;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.block-container {
+    max-width: 980px !important;
+    padding: 28px 42px 120px !important;
+    margin: 0 auto !important;
+}
+
+/* ==================================================
+   SIDEBAR
+   ================================================== */
+
+section[data-testid="stSidebar"] {
+    background: #141518 !important;
+    border-right: 1px solid #282a2f !important;
+}
+
+section[data-testid="stSidebar"] > div {
+    padding: 22px 18px !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="stSidebarContent"] {
+    padding: 0 !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="stSidebarUserContent"] {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* ==================================================
+   DHRIVA BRAND
+   ================================================== */
+
+section[data-testid="stSidebar"] h1 {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #f1f1f1 !important;
+    font-size: 19px !important;
+    line-height: 25px !important;
+    font-weight: 650 !important;
+    letter-spacing: -0.3px !important;
+}
+
+section[data-testid="stSidebar"] h1 + p {
+    margin: 3px 0 0 !important;
+    color: #73767e !important;
+    font-size: 11px !important;
+}
+
+/* ==================================================
+   SIDEBAR DIVIDERS
+   ================================================== */
+
+section[data-testid="stSidebar"] hr {
+    border: none !important;
+    border-top: 1px solid #292b30 !important;
+    margin: 20px 0 !important;
+}
+
+/* ==================================================
+   NEW CHAT
+   ================================================== */
+
+section[data-testid="stSidebar"] .stButton {
+    margin: 0 !important;
+}
+
+section[data-testid="stSidebar"] .stButton button {
+    min-height: 38px !important;
+    padding: 8px 11px !important;
+    background: #1d1f23 !important;
+    border: 1px solid #292b30 !important;
+    border-radius: 9px !important;
+    color: #dedfe2 !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    text-align: left !important;
+    justify-content: flex-start !important;
+    transition: background 0.18s ease, border-color 0.18s ease !important;
+}
+
+section[data-testid="stSidebar"] .stButton button:hover {
+    background: #24262b !important;
+    border-color: #373940 !important;
+    color: #ffffff !important;
+}
+
+/* ==================================================
+   SECTION HEADINGS
+   ================================================== */
+
+section[data-testid="stSidebar"] h5 {
+    margin: 0 0 11px !important;
+    padding: 0 !important;
+    color: #777a82 !important;
+    font-size: 10px !important;
+    line-height: 14px !important;
+    font-weight: 650 !important;
+    letter-spacing: 1px !important;
+}
+
+/* ==================================================
+   SEARCH / INPUTS
+   ================================================== */
+
+section[data-testid="stSidebar"] input {
+    background: #1d1f23 !important;
+    border: 1px solid #2b2d32 !important;
+    border-radius: 9px !important;
+    color: #eeeeee !important;
+    font-size: 12px !important;
+    min-height: 36px !important;
+    transition: border-color 0.18s ease, background 0.18s ease !important;
+}
+
+section[data-testid="stSidebar"] input:focus {
+    border-color: #4a4c52 !important;
+    box-shadow: none !important;
+    background: #202227 !important;
+}
+
+/* ==================================================
+   CHAT HISTORY
+   ================================================== */
+
+section[data-testid="stSidebar"] [data-testid="column"] {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="column"]:first-child {
+    width: 88% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="column"]:first-child .stButton {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="column"]:first-child .stButton button {
+    width: 100% !important;
+    min-height: 34px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    padding: 7px 8px !important;
+    margin: 1px 0 !important;
+    background: transparent !important;
+    border: 1px solid transparent !important;
+    border-radius: 8px !important;
+    color: #bfc1c7 !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    text-align: left !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="column"]:first-child .stButton button > div {
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="column"]:first-child .stButton button p {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    color: #bfc1c7 !important;
+    font-size: 12px !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="column"]:first-child .stButton button:hover {
+    background: #1d1f23 !important;
+    border-color: #282a2f !important;
+    color: #ffffff !important;
+}
+
+/* ==================================================
+   THREE DOT MENU
+   ================================================== */
+
+section[data-testid="stSidebar"] [data-testid="column"]:last-child {
+    width: 12% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="column"]:last-child .stButton {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="column"]:last-child .stButton button {
+    width: 100% !important;
+    min-height: 34px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 6px 0 !important;
+    margin: 1px 0 !important;
+    background: transparent !important;
+    border: 1px solid transparent !important;
+    border-radius: 8px !important;
+    color: #6f7279 !important;
+    font-size: 14px !important;
+    text-align: center !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="column"]:last-child .stButton button:hover {
+    background: #1d1f23 !important;
+    border-color: #282a2f !important;
+    color: #eeeeee !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="column"]:last-child .stButton button > div {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* ==================================================
+   SIDEBAR CAPTION
+   ================================================== */
+
+section[data-testid="stSidebar"] .stCaption {
+    color: #70737a !important;
+    font-size: 11px !important;
+}
+
+/* ==================================================
+   DOCUMENT UPLOAD
+   ================================================== */
+
+section[data-testid="stSidebar"] [data-testid="stFileUploader"] {
+    background: #1b1d21 !important;
+    border: 1px dashed #34363c !important;
+    border-radius: 10px !important;
+    padding: 8px !important;
+    transition: border-color 0.18s ease, background 0.18s ease !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="stFileUploader"]:hover {
+    background: #1f2125 !important;
+    border-color: #484a51 !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="stFileUploader"] small {
+    color: #777a82 !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="stFileUploader"] button {
+    background: #24262b !important;
+    border: 1px solid #34363c !important;
+    color: #d8d9dc !important;
+    border-radius: 7px !important;
+}
+
+/* ==================================================
+   WELCOME SCREEN
+   ================================================== */
+
+.chat-title {
+    margin-top: 250px;
+    color: #eeeeee;
+    font-size: 29px;
+    line-height: 1.25;
+    font-weight: 500;
+    letter-spacing: -0.7px;
+    text-align: center;
+}
+
+/* ==================================================
+   CHAT MESSAGES
+   ================================================== */
+
+div[data-testid="stChatMessage"] {
+    width: 100% !important;
+    max-width: 760px !important;
+    margin: 0 auto !important;
+    padding: 13px 0 !important;
+    animation: dhrivaMessageIn 0.35s ease-out;
+}
+
+div[data-testid="stChatMessage"] > div {
+    max-width: 100% !important;
+}
+
+div[data-testid="stChatMessage"] p {
+    margin-bottom: 8px !important;
+    color: #dddddf !important;
+    font-size: 14px !important;
+    line-height: 1.7 !important;
+    font-weight: 400 !important;
+}
+
+/* ==================================================
+   MESSAGE HEADINGS
+   ================================================== */
+
+div[data-testid="stChatMessage"] h1 {
+    margin: 5px 0 13px !important;
+    font-size: 21px !important;
+    line-height: 1.35 !important;
+    font-weight: 650 !important;
+}
+
+div[data-testid="stChatMessage"] h2 {
+    margin: 19px 0 10px !important;
+    font-size: 18px !important;
+    font-weight: 650 !important;
+}
+
+div[data-testid="stChatMessage"] h3 {
+    margin: 16px 0 8px !important;
+    font-size: 15px !important;
+    font-weight: 650 !important;
+}
+
+/* ==================================================
+   AVATARS
+   ================================================== */
+
+div[data-testid="stChatMessage"] [data-testid="chatAvatarIcon-user"],
+div[data-testid="stChatMessage"] [data-testid="chatAvatarIcon-assistant"] {
+    width: 28px !important;
+    height: 28px !important;
+}
+
+/* ==================================================
+   CODE BLOCKS
+   ================================================== */
+
+div[data-testid="stChatMessage"] pre {
+    max-width: 100% !important;
+    padding: 15px !important;
+    border-radius: 10px !important;
+    overflow-x: auto !important;
+    background: #1d1f23 !important;
+    border: 1px solid #292b30 !important;
+}
+
+div[data-testid="stChatMessage"] code {
+    font-size: 12px !important;
+}
+
+/* ==================================================
+   TABLES
+   ================================================== */
+
+div[data-testid="stChatMessage"] table {
+    max-width: 100% !important;
+    font-size: 13px !important;
+    overflow-x: auto !important;
+}
+
+/* ==================================================
+   CHAT ACTION BUTTONS
+   ================================================== */
+
+div[data-testid="stChatMessage"] .stButton button {
+    min-height: 26px !important;
+    padding: 3px 8px !important;
+    background: transparent !important;
+    border: 1px solid transparent !important;
+    border-radius: 6px !important;
+    color: #70737a !important;
+    font-size: 11px !important;
+}
+
+div[data-testid="stChatMessage"] .stButton button:hover {
+    background: #202227 !important;
+    border-color: #2b2d32 !important;
+    color: #c5c6ca !important;
+}
+
+/* ==================================================
+   CHAT INPUT
+   ================================================== */
+
+div[data-testid="stChatInput"] {
+    width: 100% !important;
+    max-width: 760px !important;
+    margin: 0 auto !important;
+}
+
+div[data-testid="stChatInput"] > div {
+    min-height: 54px !important;
+    background: #1c1e22 !important;
+    border: 1px solid #34363b !important;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18) !important;
+    transition: border-color 0.18s ease, box-shadow 0.18s ease !important;
+}
+
+div[data-testid="stChatInput"] > div:focus-within {
+    border-color: #50535a !important;
+    box-shadow: 0 8px 35px rgba(0, 0, 0, 0.24) !important;
+}
+
+div[data-testid="stChatInput"] textarea {
+    color: #eeeeee !important;
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+}
+
+div[data-testid="stChatInput"] textarea::placeholder {
+    color: #777980 !important;
+    font-size: 13px !important;
+}
+
+/* ==================================================
+   SEND BUTTON
+   ================================================== */
+
+div[data-testid="stChatInput"] button {
+    width: 34px !important;
+    height: 34px !important;
+    min-width: 34px !important;
+    border-radius: 9px !important;
+}
+
+/* ==================================================
+   HEADER / STREAMLIT CONTROLS
+   ================================================== */
+
+#MainMenu,
+footer {
+    display: none !important;
+}
+
+[data-testid="stAppDeployButton"] {
+    display: none !important;
+}
+
+header {
+    background: #17181b !important;
+}
+
+/* ==================================================
+   USER ACCOUNT
+   ================================================== */
+
+.user-account {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 10px;
+    margin-top: 4px;
+    border: 1px solid #282a2f;
+    border-radius: 9px;
+    background: #1b1d21;
+}
+
+.user-icon {
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #25272c;
+    font-size: 13px;
+}
+
+.user-email {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #aeb0b6;
+    font-size: 11px;
+}
+
+/* ==================================================
+   SCROLLBAR
+   ================================================== */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2b2d32;
+    border-radius: 10px;
+}
+
+/* ==================================================
+   MESSAGE ANIMATION
+   ================================================== */
+
+@keyframes dhrivaMessageIn {
+    from {
+        opacity: 0;
+        transform: translateY(7px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ==================================================
+   CHAT INPUT BOTTOM AREA
+   ================================================== */
+
+div[data-testid="stBottom"] {
+    background: #17181b !important;
+}
+
+div[data-testid="stBottomBlockContainer"] {
+    background: #17181b !important;
+}
+
+/* ==================================================
+   AUTHENTICATION
+   ================================================== */
+
+.auth-container {
+    max-width: 420px !important;
+    margin: 80px auto 20px !important;
+}
+
+div[data-testid="stTabs"] {
+    max-width: 420px !important;
+    margin: 0 auto !important;
+}
+
+/* ==================================================
+   MOBILE
+   ================================================== */
+
+@media (max-width: 768px) {
+
+    .block-container {
+        padding: 18px 18px 100px !important;
+    }
+
+    .chat-title {
+        margin-top: 150px;
+        font-size: 23px;
+    }
+
+    div[data-testid="stChatMessage"] {
+        max-width: 100% !important;
+    }
+
+    div[data-testid="stChatMessage"] p {
+        font-size: 13px !important;
+    }
+
+    div[data-testid="stChatInput"] {
+        max-width: 100% !important;
+    }
+
+    section[data-testid="stSidebar"] > div {
+        padding: 18px 15px !important;
+    }
+}
+
+/* ==================================================
+   SMALL PHONES
+   ================================================== */
+
+@media (max-width: 480px) {
+
+    [data-testid="stMainBlockContainer"] {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+        padding-top: 10px !important;
+    }
+
+    .chat-title {
+        font-size: 21px !important;
+        margin-top: 60px !important;
+    }
+
+    [data-testid="stChatMessageContent"] {
+        max-width: calc(100vw - 65px) !important;
+    }
+
+    [data-testid="stChatMessageContent"] p {
+        font-size: 13px !important;
+        line-height: 1.55 !important;
+    }
+
+    [data-testid="stChatInput"] {
+        width: calc(100% - 10px) !important;
+    }
+
+    [data-testid="stChatInput"] textarea {
+        font-size: 13px !important;
+    }
+
+    [data-testid="stChatMessageContent"] h1 {
+        font-size: 20px !important;
+    }
+
+    [data-testid="stChatMessageContent"] h2 {
+        font-size: 18px !important;
+    }
+
+    [data-testid="stChatMessageContent"] h3 {
+        font-size: 16px !important;
+    }
+
+    [data-testid="stChatMessageContent"] pre {
+        font-size: 11px !important;
+    }
+}
+
+/* ==================================================
+   CUSTOM DHRIVA SIDEBAR CONTROL
+   ================================================== */
+
+/* Hide Streamlit header background */
+header {
+    background: transparent !important;
+    border: none !important;
+}
+
+/* Hide Streamlit menu and deploy */
+#MainMenu {
+    display: none !important;
+}
+
+[data-testid="stAppDeployButton"] {
+    display: none !important;
+}
+
+/* Style Streamlit sidebar collapse button as DHRIVA menu */
+[data-testid="stSidebarCollapseButton"] button {
+    width: 38px !important;
+    height: 38px !important;
+    min-width: 38px !important;
+    border-radius: 10px !important;
+    background: #1d1f23 !important;
+    border: 1px solid #303238 !important;
+    color: #d7d8dc !important;
+    box-shadow: none !important;
+    transition: all 0.2s ease !important;
+}
+
+/* Hover */
+[data-testid="stSidebarCollapseButton"] button:hover {
+    background: #27292e !important;
+    border-color: #41434a !important;
+    color: #ffffff !important;
+}
+
+/* Make the native icon look cleaner */
+[data-testid="stSidebarCollapseButton"] svg {
+    width: 19px !important;
+    height: 19px !important;
+}
+
+/* Sidebar itself */
+section[data-testid="stSidebar"] {
+    background: #141518 !important;
+    border-right: 1px solid #292b30 !important;
+    box-shadow: 10px 0 35px rgba(0, 0, 0, 0.18) !important;
+}
+
+/* Sidebar content */
+section[data-testid="stSidebar"] > div {
+    padding: 22px 18px !important;
+}
+
+/* Smooth sidebar appearance */
+section[data-testid="stSidebar"] {
+    transition: all 0.25s ease !important;
+}
+
+/* ==================================================
+   SIDEBAR LOGOUT
+   ================================================== */
+
+section[data-testid="stSidebar"] .user-account {
+    margin-bottom: 8px !important;
+}
+
+section[data-testid="stSidebar"] .user-account + div .stButton button {
+    min-height: 36px !important;
+    background: transparent !important;
+    border: 1px solid transparent !important;
+    border-radius: 8px !important;
+    color: #8b8d94 !important;
+    font-size: 12px !important;
+    text-align: left !important;
+    justify-content: flex-start !important;
+}
+
+section[data-testid="stSidebar"] .user-account + div .stButton button:hover {
+    background: #202227 !important;
+    border-color: #2d2f35 !important;
+    color: #eeeeee !important;
+}
+
+/* ==================================================
+   DHRIVA + SIDEBAR TOGGLE ALIGNMENT
+   ================================================== */
+
+/* DHRIVA stays at the very top-left */
+section[data-testid="stSidebar"] [data-testid="stSidebarUserContent"] {
+    margin-top: -75px !important;
+    padding-top: 0 !important;
+}
+
+/* Sidebar toggle - same row as DHRIVA */
+[data-testid="stSidebarCollapseButton"] {
+    position: absolute !important;
+    top: 8px !important;
+    right: 12px !important;
+    z-index: 9999 !important;
+}
+
+/* Toggle button */
+[data-testid="stSidebarCollapseButton"] button {
+    width: 40px !important;
+    height: 40px !important;
+    min-width: 40px !important;
+    padding: 0 !important;
+    border-radius: 10px !important;
+    background: #1d1f23 !important;
+    border: 1px solid #303238 !important;
+    color: #d7d8dc !important;
+}
+
+/* Hover */
+[data-testid="stSidebarCollapseButton"] button:hover {
+    background: #27292e !important;
+    border-color: #41434a !important;
+}
+
+/* ==================================================
+   DHRIVA WELCOME SCREEN
+   ================================================== */
+
+.welcome-screen {
+    text-align: center;
+    margin-top: 18vh;
+    margin-bottom: 30px;
+}
+
+.welcome-icon {
+    font-size: 42px;
+    margin-bottom: 14px;
+}
+
+.welcome-title {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+}
+
+.welcome-subtitle {
+    font-size: 15px;
+    color: #8f929a;
+}
+
+/* ==================================================
+   CHATGPT-STYLE DHRIVA SIDEBAR
+   ================================================== */
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #0f1011 !important;
+    border-right: 1px solid #242528 !important;
+    box-shadow: none !important;
+}
+
+/* Sidebar spacing */
+section[data-testid="stSidebar"] > div {
+    padding: 16px 14px !important;
+}
+
+/* DHRIVA branding */
+section[data-testid="stSidebar"] h1 {
+    font-size: 20px !important;
+    font-weight: 650 !important;
+    color: #f5f5f5 !important;
+    margin: 0 !important;
+}
+
+section[data-testid="stSidebar"] h1 + p {
+    color: #8b8d92 !important;
+    font-size: 12px !important;
+    margin-top: 2px !important;
+}
+
+/* Sidebar dividers */
+section[data-testid="stSidebar"] hr {
+    border-top: 1px solid #242528 !important;
+    margin: 14px 0 !important;
+}
+
+/* ==================================================
+   NEW CHAT
+   ================================================== */
+
+section[data-testid="stSidebar"] .stButton button {
+    min-height: 40px !important;
+    background: transparent !important;
+    border: 1px solid transparent !important;
+    border-radius: 8px !important;
+    color: #ececef !important;
+    font-size: 14px !important;
+    font-weight: 450 !important;
+    padding: 8px 10px !important;
+}
+
+section[data-testid="stSidebar"] .stButton button:hover {
+    background: #1c1d1f !important;
+    border-color: transparent !important;
+}
+
+/* ==================================================
+   SECTION TITLE
+   ================================================== */
+
+section[data-testid="stSidebar"] h5 {
+    color: #8b8d92 !important;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px !important;
+    margin: 12px 0 8px !important;
+}
+
+/* ==================================================
+   SEARCH
+   ================================================== */
+
+section[data-testid="stSidebar"] input {
+    background: #18191b !important;
+    border: 1px solid #292b2f !important;
+    border-radius: 8px !important;
+    min-height: 38px !important;
+    color: #eeeeee !important;
+    font-size: 13px !important;
+}
+
+section[data-testid="stSidebar"] input:focus {
+    background: #1c1d20 !important;
+    border-color: #3a3c41 !important;
+    box-shadow: none !important;
+}
+
+/* ==================================================
+   RECENT CHAT ROWS
+   ================================================== */
+
+section[data-testid="stSidebar"] [data-testid="column"]:first-child .stButton button {
+    min-height: 36px !important;
+    padding: 7px 10px !important;
+    margin: 1px 0 !important;
+    background: transparent !important;
+    border: 1px solid transparent !important;
+    border-radius: 7px !important;
+    color: #d4d5d8 !important;
+    font-size: 13px !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="column"]:first-child .stButton button:hover {
+    background: #1c1d1f !important;
+    border-color: transparent !important;
+    color: #ffffff !important;
+}
+
+/* Chat text */
+section[data-testid="stSidebar"] [data-testid="column"]:first-child .stButton button p {
+    color: #d4d5d8 !important;
+    font-size: 13px !important;
+}
+
+/* ==================================================
+   THREE DOT MENU
+   ================================================== */
+
+section[data-testid="stSidebar"] [data-testid="column"]:last-child .stButton button {
+    min-height: 36px !important;
+    background: transparent !important;
+    border: none !important;
+    color: #8b8d92 !important;
+    font-size: 15px !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="column"]:last-child .stButton button:hover {
+    background: #1c1d1f !important;
+    color: #ffffff !important;
+}
+
+/* ==================================================
+   ACCOUNT POPUP
+   ================================================== */
+
+section[data-testid="stSidebar"] [data-testid="stPopover"] {
+    background: transparent !important;
+}
+
+/* ==================================================
+   POWERED BY GROQ
+   ================================================== */
+
+section[data-testid="stSidebar"] .stCaption {
+    color: #6f7177 !important;
+    font-size: 11px !important;
+}
+
+/* ==================================================
+   FINAL CHATGPT-STYLE SIDEBAR LAYOUT
+   ================================================== */
+
+/* Sidebar content */
+section[data-testid="stSidebar"] > div {
+    padding: 12px 14px !important;
+}
+
+/* DHRIVA stays compact at the top */
+section[data-testid="stSidebar"] h1 {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+}
+
+section[data-testid="stSidebar"] h1 + p {
+    margin: 2px 0 10px !important;
+    font-size: 12px !important;
+}
+
+/* Reduce divider spacing */
+section[data-testid="stSidebar"] hr {
+    margin: 10px 0 !important;
+}
+
+/* New Chat */
+section[data-testid="stSidebar"] .stButton button {
+    min-height: 38px !important;
+    padding: 7px 10px !important;
+    border-radius: 8px !important;
+}
+
+/* Recent Chats heading */
+section[data-testid="stSidebar"] h5 {
+    margin: 8px 0 6px !important;
+    font-size: 10px !important;
+}
+
+/* Search */
+section[data-testid="stSidebar"] input {
+    min-height: 36px !important;
+    margin-bottom: 5px !important;
+}
+
+/* ==================================================
+   COMPACT CHAT LIST
+   ================================================== */
+
+section[data-testid="stSidebar"] [data-testid="column"]:first-child .stButton button {
+    min-height: 32px !important;
+    padding: 5px 8px !important;
+    margin: 0 !important;
+    border-radius: 7px !important;
+    font-size: 12px !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="column"]:first-child .stButton button p {
+    font-size: 12px !important;
+}
+
+/* Three dots */
+section[data-testid="stSidebar"] [data-testid="column"]:last-child .stButton button {
+    min-height: 32px !important;
+    padding: 4px 0 !important;
+}
+
+/* ==================================================
+   EXPORT SECTION
+   ================================================== */
+
+section[data-testid="stSidebar"] .stDownloadButton button {
+    min-height: 34px !important;
+    padding: 6px 9px !important;
+    font-size: 12px !important;
+    border-radius: 7px !important;
+}
+
+/* ==================================================
+   ACCOUNT AREA
+   ================================================== */
+
+/* Keep sidebar content above the account area */
+section[data-testid="stSidebar"] [data-testid="stSidebarUserContent"] {
+    padding-bottom: 75px !important;
+}

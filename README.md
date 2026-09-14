@@ -4,6 +4,8 @@
 
 DHRIVA is a conversational AI application designed to provide a clean and practical chatbot experience while demonstrating real-world application development concepts such as authentication, persistent storage, document processing, API integration, error handling, and responsive UI design.
 
+[![GitHub](https://img.shields.io/badge/GitHub-Dhruvanthi--KR-blue?logo=github)](https://github.com/Dhruvanthi-KR/DHRIVA-AI)
+[![Live Demo](https://img.shields.io/badge/Live-DHRIVA-green?logo=streamlit)](https://dhriva-ai.streamlit.app/)
 ---
 
 ## ✨ Features
